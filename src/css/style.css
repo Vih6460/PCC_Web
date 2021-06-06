@@ -13,6 +13,11 @@ nav a img {
     border-radius: 20px;
 }
 
+.nav-item:hover {
+    border-bottom: 1px solid yellow;
+}
+
+
 #background{
     width: 100vw;
     height: 100vh;
@@ -100,4 +105,52 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 767px) 
+{
+    .navbar-light .navbar-toggler {
+        background-color: yellow;
+        margin: 0 10px;
+    }
+
+    .conteudo img {
+        width: 95vw;
+        margin-top: 20px;
+        padding: 0 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragrafo{
+        padding: 0 10px;
+    }
+
+    .carousel-inner {
+        padding: 0 10px;
+    }
+
+    #saiEmMobile{
+        display: none;
+    }
+
+    #backgroundTrabalheConosco, #tituloTrabalheConosco {
+        width: 90vw!important;
+    }
+
+    #backgroundTrabalheConosco{
+        margin: 0 auto;
+    }
+
+    #backgroundContato, #tituloContato {
+        width: 90vw!important;
+    }
+
+    #backgroundContato{
+        margin: 0 auto;
+    }
+
+    .margem{
+        margin-top: 30px;
+    }
 }

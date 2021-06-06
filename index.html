@@ -2,6 +2,7 @@
 <html lang="pt-BR">
   <head>
     <title>H GOLD Log Transportes Ltda.</title>
+    <link rel="icon" type="imagem/png" href="./src/img/logohgold.png" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,7 +24,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light navbar-style fixed-top">
-            <a class="navbar-brand" href="#"> <img src="./src/img/logohgold.jpg" alt="Logo" height="40px"> </a>            
+            <a class="navbar-brand" href="./index.html"> <img src="./src/img/logohgold.jpg" alt="Logo" height="40px"> </a>            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,13 +32,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="./contato.html">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Trabalhe Conosco</a>
+                    <a class="nav-link" href="./trabalheConosco.html">Trabalhe Conosco</a>
                 </li>
 
               </ul>
@@ -56,12 +57,12 @@
               <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="row d-flex align-items-center" style="margin-top: 150px;">
                   
-                  <div class="col-md-6 conteudo">
+                  <div class="col-12 col-sm-12 col-md-6 conteudo">
                       <h2 class="titulo">A empresa</h2>
                       <h5 class="paragrafo">A H GOLD é uma transportadora localizada no bairro do Tatuapé de São Paulo que faz entregas com a melhor eficiência. Temos uma grande frota de caminhões bem equipado para melhor atendê-los.</h5>
                   </div>
 
-                  <div class="col-md-6 conteudo">
+                  <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center conteudo">
                       <img src="./src/img/camimhoes.jpeg" alt="caminhoes">
                   </div>
 
@@ -73,11 +74,11 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <div class="row d-flex align-items-center" style="margin-top: 50px;">
                                    
-                    <div class="col-md-6 conteudo">
+                    <div class="col-12 col-sm-12 col-md-6 conteudo" id="saiEmMobile">
                       <img src="./src/img/caminhao.jpg" alt="caminhao">
                     </div>
                     
-                    <div class="col-md-6 conteudo">
+                    <div class="col-12 col-sm-12 col-md-6 conteudo">
                         <h2 class="titulo">Serviços</h2>
                         <h5 class="paragrafo">Servimos bem para servir sempre, você já deve ter ouvido esta frase. E é o que nós fazemos, nos dedicamos ao máximo em nosso trabalho para que o produto seja entregue com a melhor qualidade possível.</h5>
                     </div>
@@ -92,13 +93,22 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <div class="row d-flex align-items-center" style="margin-top: 50px;">
                     
-                    <div class="col-md-6 conteudo">
+                    <div class="col-12 col-sm-12 col-md-6 conteudo">
                         <h2 class="titulo">Parceiros</h2>
                         <h5 class="paragrafo">A H-Gold prioriza a parceria com os nossos clientes e o objetivo não é apenas prestar serviços de transporte, mas também, conquistar e fidelizar todos os  nossos clientes.</h5>
                     </div>
                                    
-                    <div class="col-md-6 conteudo">
-                      <img src="./src/img/cacau_show.png" alt="">
+                    <div class="col-12 col-sm-12 col-md-6 conteudo">
+                      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-interval="2500">
+                            <img src="./src/img/cacau_show.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-interval="2500">
+                            <img src="./src/img/ceratti.png" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                      </div>
                     </div>
   
                   </div>
@@ -109,18 +119,22 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                   <div class="row d-flex align-items-center" style="margin-top: 50px;">             
                                    
-                    <div class="col-md-6 conteudo">
-                      <div id="backgroundTrabalheConosco"></div>
-                      <div>
-                        <h2 class="titulo" id="tituloTrabalheConosco">Trabalhe Conosco</h2>
-                      </div>
+                    <div class="col-12 col-sm-12 col-md-6 conteudo">
+                      <a href="./trabalheConosco.html">
+                        <div id="backgroundTrabalheConosco"></div>
+                        <div >
+                          <h2 class="titulo" id="tituloTrabalheConosco">Trabalhe Conosco</h2>
+                        </div>
+                      </a>
                     </div>
 
-                    <div class="col-md-6 conteudo">
-                      <div id="backgroundContato"></div>
-                      <div>
-                        <h2 class="titulo" id="tituloContato">Contato</h2>
-                      </div>
+                    <div class="col-12 col-sm-12 col-md-6 conteudo margem">
+                      <a href="./contato.html">
+                        <div id="backgroundContato"></div>
+                        <div>
+                          <h2 class="titulo" id="tituloContato">Contato</h2>
+                        </div>
+                      </a>
                     </div>
                   </div>
                 </div>
